@@ -1,0 +1,25 @@
+.container-fluid input[type=text] {
+	width: 500px;
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	font-size: 16px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+.container-fluid button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.container-fluid button:hover {
+	background: #ccc;
+}
